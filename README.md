@@ -234,6 +234,8 @@ RTAB-SLAM-Implementation/
 
 ## Future Improvements
 
+I have acquired a Zed 2i Stereo Depth Camera with an inbuilt IMU, which eliminates the need for the RealSense and VN-100 jig/contraption. This will also make coordinate frame transforms much more simplified and straightforward. I will be doing this same implementation on the Zed Camera, with hopefully better results this time.
+
 - [ ] Hardware GPIO triggering for perfect sensor synchronization
 - [ ] Implement tighter loop closure detection (reduce missed loops)
 - [ ] Add depth image preprocessing to handle bright lighting
